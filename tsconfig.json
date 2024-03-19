@@ -21,10 +21,6 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "types": [
-      "vitest",
-      "@testing-library/jest-dom"
-    ],
     "typeRoots": [
       "node_modules/@types",
       "./src/types"
@@ -32,7 +28,8 @@
   },
   "include": [
     "src",
-    "./index.ts"
+    "./index.ts",
+    "./setupTests.ts",
   ],
   "references": [
     {

@@ -4,14 +4,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [1.1.0](https://github.com/MCesarczyk/react-components/compare/v1.0.0...v1.1.0) (2024-03-20)
 
-
 ### Features
 
-* **select:** update component ([3b17a0b](https://github.com/MCesarczyk/react-components/commit/3b17a0b782188ab26513f07d4eb3bea5baab7850))
+- **select:** update component ([3b17a0b](https://github.com/MCesarczyk/react-components/commit/3b17a0b782188ab26513f07d4eb3bea5baab7850))
+- update config, merge TailwindCSS in component ([b58e12c](https://github.com/MCesarczyk/react-components/commit/b58e12c105100556e9b2bc4e32795c7628278fd3))
 
 ## 1.0.0 (2024-03-19)
 
-
 ### Features
 
-* **select:** create component and folder structure ([0fa1691](https://github.com/MCesarczyk/react-components/commit/0fa1691cd289bc0dc573f80983abe09c48031997))
+- **select:** create component and folder structure ([0fa1691](https://github.com/MCesarczyk/react-components/commit/0fa1691cd289bc0dc573f80983abe09c48031997))

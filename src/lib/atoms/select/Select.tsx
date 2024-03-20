@@ -15,7 +15,7 @@ export const Select = ({
 }: ComponentProps<"select"> & Props) => {
   return (
     <select
-      className="px-4 py-2 rounded bg-gray-200 border-black border-2 outline-offset-0"
+      className="px-4 py-2 rounded bg-gray-200 text-black border-black border-2 outline-offset-0"
       {...{ options }}
       {...rest}
     >

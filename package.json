@@ -2,12 +2,12 @@
   "name": "@mcesarczyk/react-components",
   "version": "1.0.0",
   "description": "React components library",
+  "author": "Michał Cesarczyk",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MCesarczyk/react-components"
   },
-  "author": "Michał Cesarczyk",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/MCesarczyk/react-components/issues"
   },
@@ -27,11 +27,8 @@
       "require": "./dist/index.umd.js",
       "types": "./dist/index.d.ts"
     },
-    "./dist": {
-      "import": "./dist/index.es.js",
-      "require": "./dist/index.umd.js",
-      "types": "./dist/index.d.ts"
-    }
+    "./package.json": "./package.json",
+    "./dist/*": "./dist/*"
   },
   "files": [
     "dist"
@@ -50,13 +47,6 @@
     "build-storybook": "storybook build",
     "release": "standard-version"
   },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@types/node": "^20.11.29",
-    "standard-version": "^9.5.0",
-    "vite-plugin-dts": "^3.7.3"
-  },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.2.23",
     "@storybook/addon-essentials": "^8.0.1",
@@ -71,6 +61,7 @@
     "@testing-library/react": "^14.2.1",
     "@testing-library/user-event": "^14.5.2",
     "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.29",
     "@types/react": "^18.2.64",
     "@types/react-dom": "^18.2.21",
     "@typescript-eslint/eslint-plugin": "^7.1.1",
@@ -87,10 +78,14 @@
     "postcss": "^8.4.36",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "rollup": "^4.13.0",
+    "standard-version": "^9.5.0",
     "storybook": "^8.0.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.2.2",
     "vite": "^5.1.6",
+    "vite-plugin-dts": "^3.7.3",
+    "vite-plugin-css-injected-by-js": "^3.5.0",
     "vitest": "^1.4.0"
   },
   "config": {

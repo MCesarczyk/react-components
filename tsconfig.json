@@ -23,9 +23,11 @@
     "noFallthroughCasesInSwitch": true,
     "typeRoots": [
       "node_modules/@types",
-      "./src/types"
+      "./dist/index.d.ts"
     ],
   },
+  "declaration": true,
+  "alloSyntheticDefaultImports": true,
   "include": [
     "src",
     "./index.ts",

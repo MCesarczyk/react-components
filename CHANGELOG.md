@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/MCesarczyk/react-components/compare/v1.1.0...v1.2.0) (2024-03-21)
+
+### Features
+
+- **button:** create component with variants, tests and storybook ([d5a288e](https://github.com/MCesarczyk/react-components/commit/d5a288e3ab8f19e269355ea00590a04a2c8be428))
+
 ## [1.1.0](https://github.com/MCesarczyk/react-components/compare/v1.0.0...v1.1.0) (2024-03-20)
 
 ### Features

@@ -1,6 +1,6 @@
 {
   "name": "@mcesarczyk/react-components",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "React components library",
   "author": "Michał Cesarczyk",
   "license": "MIT",
@@ -46,6 +46,7 @@
     "coverage": "vitest run --coverage",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "chromatic": "eval $(grep '^CHROMATIC_PROJECT_TOKEN' .env.development) && chromatic --project-token=$CHROMATIC_PROJECT_TOKEN",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "release": "standard-version",
@@ -72,6 +73,7 @@
     "@typescript-eslint/parser": "^7.3.1",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.18",
+    "chromatic": "^11.2.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",

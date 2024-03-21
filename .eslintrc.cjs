@@ -5,11 +5,10 @@ module.exports = {
   },
   extends: [
     "eslint:recommended",
+    "plugin:react/jsx-runtime",
     "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended",
-    "airbnb",
-    "airbnb/typescript",
-    "plugin:prettier/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:storybook/recommended",
   ],
   overrides: [
     {

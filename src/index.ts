@@ -1,2 +1,2 @@
-import './index.css';
-export * from './lib';
+import "./index.css";
+export * from "./lib";

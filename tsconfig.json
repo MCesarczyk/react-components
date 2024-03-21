@@ -2,11 +2,7 @@
   "compilerOptions": {
     "target": "ES2020",
     "useDefineForClassFields": true,
-    "lib": [
-      "ES2020",
-      "DOM",
-      "DOM.Iterable"
-    ],
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
     /* Bundler mode */
@@ -21,18 +17,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "typeRoots": [
-      "node_modules/@types",
-      "./dist/index.d.ts"
-    ],
+    "typeRoots": ["node_modules/@types", "./dist/index.d.ts"]
   },
   "declaration": true,
   "alloSyntheticDefaultImports": true,
-  "include": [
-    "src",
-    "./index.ts",
-    "./setupTests.ts",
-  ],
+  "include": ["src", "./index.ts", "./setupTests.ts"],
   "references": [
     {
       "path": "./tsconfig.node.json"

@@ -1,19 +1,19 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import Button from "./Button";
 
-// More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 const meta = {
   title: "Atoms/Button",
   component: Button,
   tags: ["autodocs"],
-  argTypes: {},
+  argTypes: {
+    onClick: { action: "clicked" },
+  },
 } satisfies Meta<typeof Button>;
 
 export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-// More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 export const Primary: Story = {
   args: {
     label: "Button",
@@ -47,5 +47,33 @@ export const Small: Story = {
     onClick: () => {
       window.console.log("Button clicked!");
     },
+  },
+};
+
+export const Disabled: Story = {
+  args: {
+    label: "Button",
+    buttonType: "disabled",
+  },
+};
+
+export const Warning: Story = {
+  args: {
+    label: "Button",
+    buttonType: "warning",
+  },
+};
+
+export const Error: Story = {
+  args: {
+    label: "Button",
+    buttonType: "error",
+  },
+};
+
+export const Shadow: Story = {
+  args: {
+    label: "Button",
+    buttonType: "shadow",
   },
 };

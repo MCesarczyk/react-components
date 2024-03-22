@@ -13,11 +13,11 @@ export const buttonStyles = cva(
         secondary:
           "bg-gray-200 text-gray-600 border-gray-200 hover:bg-gray-300",
         warning:
-          "bg-yellow-500 text-white border-yellow-500 hover:bg-yellow-600",
-        outline:
+          "bg-yellow-600 text-white border-yellow-600 hover:bg-yellow-700",
+        shadow:
           "bg-white text-gray-600 hover:bg-gray-100 border hover:border-gray-100 border-gray-300 hover:shadow-md",
-        disabled: "bg-black text-white border-black cursor-not-allowed",
-        error: "bg-red-500 text-white border-red-500 hover:bg-red-600",
+        disabled: "bg-blue-400 text-blue-200 border-black cursor-not-allowed",
+        error: "bg-red-600 text-white border-red-600 hover:bg-red-700",
       },
       size: {
         default: ["text-base"],

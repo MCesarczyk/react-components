@@ -21,7 +21,7 @@ exports[`Button > render correctly with buttonType prop 2`] = `
 exports[`Button > render correctly with buttonType prop 3`] = `
 <div>
   <button
-    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-yellow-500 text-white border-yellow-500 hover:bg-yellow-600 text-base py-2 px-4 rounded-md"
+    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-yellow-600 text-white border-yellow-600 hover:bg-yellow-700 text-base py-2 px-4 rounded-md"
     type="button"
   />
 </div>
@@ -39,7 +39,7 @@ exports[`Button > render correctly with buttonType prop 4`] = `
 exports[`Button > render correctly with buttonType prop 5`] = `
 <div>
   <button
-    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-black text-white border-black cursor-not-allowed text-base py-2 px-4 rounded-md"
+    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-blue-400 text-blue-200 border-black cursor-not-allowed text-base py-2 px-4 rounded-md"
     type="button"
   />
 </div>
@@ -48,7 +48,7 @@ exports[`Button > render correctly with buttonType prop 5`] = `
 exports[`Button > render correctly with buttonType prop 6`] = `
 <div>
   <button
-    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-red-500 text-white border-red-500 hover:bg-red-600 text-base py-2 px-4 rounded-md"
+    class="flex flex-row gap-x-4 disabled:cursor-not-allowed items-center justify-center bg-red-600 text-white border-red-600 hover:bg-red-700 text-base py-2 px-4 rounded-md"
     type="button"
   />
 </div>

@@ -120,7 +120,7 @@ describe("Button", () => {
     );
 
     const { container: containerOutline } = render(
-      <Button buttonType="outline" />
+      <Button buttonType="shadow" />
     );
 
     const { container: containerDisabled } = render(
@@ -146,15 +146,15 @@ describe("Button", () => {
       "bg-white text-gray-600 hover:bg-gray-100 border hover:border-gray-100 border-gray-300 hover:shadow-md"
     );
     expect(containerWarning.firstChild).toHaveClass(
-      "bg-yellow-500 text-white border-yellow-500 hover:bg-yellow-600"
+      "bg-yellow-600 text-white border-yellow-600 hover:bg-yellow-700"
     );
 
     expect(containerDisabled.firstChild).toHaveClass(
-      "bg-black text-white border-black cursor-not-allowed"
+      "bg-blue-400 text-blue-200 border-black cursor-not-allowed"
     );
 
     expect(containerError.firstChild).toHaveClass(
-      "bg-red-500 text-white border-red-500 hover:bg-red-600"
+      "bg-red-600 text-white border-red-600 hover:bg-red-700"
     );
   });
 });

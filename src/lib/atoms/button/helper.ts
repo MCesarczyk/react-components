@@ -14,7 +14,7 @@ export const buttonStyles = cva(
           "bg-gray-200 text-gray-600 border-gray-200 hover:bg-gray-300",
         warning:
           "bg-yellow-600 text-white border-yellow-600 hover:bg-yellow-700",
-        shadow:
+        outlined:
           "bg-white text-gray-600 hover:bg-gray-100 border hover:border-gray-100 border-gray-300 hover:shadow-md",
         disabled: "bg-blue-400 text-blue-200 border-black cursor-not-allowed",
         error: "bg-red-600 text-white border-red-600 hover:bg-red-700",

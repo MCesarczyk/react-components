@@ -120,7 +120,7 @@ describe("Button", () => {
     );
 
     const { container: containerOutline } = render(
-      <Button buttonType="shadow" />
+      <Button buttonType="outlined" />
     );
 
     const { container: containerDisabled } = render(

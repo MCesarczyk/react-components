@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/MCesarczyk/react-components/compare/v1.2.0...v1.3.0) (2024-03-23)
+
+### Features
+
+- **button:** rename variant shadow to outlined ([855177a](https://github.com/MCesarczyk/react-components/commit/855177a9871853e177c590ae175ec74eae934d11))
+
 ## [1.2.0](https://github.com/MCesarczyk/react-components/compare/v1.1.0...v1.2.0) (2024-03-21)
 
 ### Features

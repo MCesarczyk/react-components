@@ -6,7 +6,45 @@ const meta = {
   component: Button,
   tags: ["autodocs"],
   argTypes: {
+    buttonType: {
+      options: [
+        "primary",
+        "secondary",
+        "warning",
+        "outlined",
+        "disabled",
+        "error",
+      ],
+      control: { type: "radio" },
+    },
+    size: {
+      options: ["default", "small", "large", "xxl"],
+      control: { type: "radio" },
+    },
+    rounded: {
+      options: ["default", "sm", "lg", "xl", "xxl", "none", "full"],
+      control: { type: "radio" },
+    },
+    spacing: {
+      options: ["default", "small", "large", "xxl"],
+      control: { type: "radio" },
+    },
+    label: {
+      control: { type: "text" },
+    },
+    leftIcon: {
+      control: { type: "disabled" },
+    },
+    rightIcon: {
+      control: { type: "disabled" },
+    },
     onClick: { action: "clicked" },
+  },
+  args: {
+    buttonType: "primary",
+    size: "default",
+    rounded: "default",
+    spacing: "default",
   },
 } satisfies Meta<typeof Button>;
 
@@ -17,9 +55,20 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
   args: {
     label: "Button",
-    onClick: () => {
-      window.console.log("Button clicked!");
-    },
+  },
+};
+
+export const PrimaryWithLeftIcon: Story = {
+  args: {
+    label: "Button",
+    leftIcon: <span>🚀</span>,
+  },
+};
+
+export const PrimaryWithRightIcon: Story = {
+  args: {
+    label: "Button",
+    rightIcon: <span>🚀</span>,
   },
 };
 
@@ -27,9 +76,6 @@ export const Secondary: Story = {
   args: {
     label: "Button",
     buttonType: "secondary",
-    onClick: () => {
-      window.console.log("Button clicked!");
-    },
   },
 };
 
@@ -44,9 +90,6 @@ export const Small: Story = {
   args: {
     size: "small",
     label: "Button",
-    onClick: () => {
-      window.console.log("Button clicked!");
-    },
   },
 };
 
@@ -71,9 +114,9 @@ export const Error: Story = {
   },
 };
 
-export const Shadow: Story = {
+export const Outlined: Story = {
   args: {
     label: "Button",
-    buttonType: "shadow",
+    buttonType: "outlined",
   },
 };

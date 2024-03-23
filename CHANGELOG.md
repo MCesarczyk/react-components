@@ -8,6 +8,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 - **button:** rename variant shadow to outlined ([855177a](https://github.com/MCesarczyk/react-components/commit/855177a9871853e177c590ae175ec74eae934d11))
 
+- **docs:** update storybook and Readme ([eafc562](https://github.com/MCesarczyk/react-components/commit/eafc562b60fad4e1377183d766d41f7d15d44bdc))
+
 ## [1.2.0](https://github.com/MCesarczyk/react-components/compare/v1.1.0...v1.2.0) (2024-03-21)
 
 ### Features

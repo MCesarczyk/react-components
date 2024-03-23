@@ -13,7 +13,7 @@ export interface ButtonProps
   label?: string;
 }
 
-export default function Button({
+export const Button = ({
   className,
   buttonType,
   size,
@@ -23,7 +23,7 @@ export default function Button({
   spacing,
   leftIcon,
   ...props
-}: ButtonProps) {
+}: ButtonProps) => {
   return (
     <button
       className={clsxMerge(
@@ -38,4 +38,4 @@ export default function Button({
       {Boolean(rightIcon) && rightIcon}
     </button>
   );
-}
+};

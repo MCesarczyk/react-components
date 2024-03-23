@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.2](https://github.com/MCesarczyk/react-components/compare/v1.3.1...v1.3.2) (2024-03-23)
+
+### Bug Fixes
+
+- **button:** change export to named ([d7b9f4d](https://github.com/MCesarczyk/react-components/commit/d7b9f4df10ea98a4797c8d485214c1ad77d52943))
+
 ### [1.3.1](https://github.com/MCesarczyk/react-components/compare/v1.3.0...v1.3.1) (2024-03-23)
 
 ### Bug Fixes
